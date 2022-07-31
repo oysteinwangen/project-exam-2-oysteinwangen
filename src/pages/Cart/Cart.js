@@ -70,6 +70,9 @@ export default function Cart() {
               </Stack>
             );
           })}
+          <Button as="a" href="/checkout">
+            Check out
+          </Button>
         </VStack>
       </Container>
     </Box>
