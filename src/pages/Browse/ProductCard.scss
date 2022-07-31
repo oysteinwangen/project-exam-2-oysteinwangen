@@ -1,0 +1,30 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-primary-700);
+  max-width: 330px;
+  width: 100%;
+  &__image {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  &__details {
+    opacity: 0.7;
+    font-size: 0.8rem;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__cart {
+    width: 100%;
+  }
+  &__details-wrapper {
+    opacity: 1;
+    transition: opacity 300ms ease;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

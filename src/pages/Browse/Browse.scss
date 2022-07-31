@@ -1,0 +1,10 @@
+.products-grid {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  flex-basis: 100%;
+}
